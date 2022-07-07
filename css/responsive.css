@@ -1,0 +1,1303 @@
+/* 
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+----------------------- 900 PX - 1200 PX ----------------------------
+---------------------------------------------------------------------
+--------------------------------------------------------------------- 
+*/
+
+@media screen and (min-width: 900px) and (max-width: 1200px), screen and (max-height: 900px) {
+
+    body {
+        /* background-image: url(../img/rusty.bg.jpg); */
+        background-color: #B7702F;
+        background-size: 100% 1000px;
+        /* background-position: 1420px 633px; */
+        background-position-x: center;
+    }
+
+    #machine {
+        width: 100%x;
+        height: 500px;
+        /* border: 1px solid black; */
+    }
+
+    #gear_big .circle_big {
+        position: absolute;
+        /* display: flex; */
+        left: 25%;
+        top: 6%;
+
+        transition: all 10ms;
+        animation-name: rotate-gear-big;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+
+    @keyframes rotate-gear-big {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(360deg);
+        }
+    }
+
+
+    .circle_big {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 41%;
+        top: 10%;
+        z-index: 1;
+    }
+
+
+    .tooth_big {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_big:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_big:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_big:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_big {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_big:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_big:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_big:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_big .center_big {
+        position: absolute;
+        width: 187px;
+        height: 187px;
+        border-radius: 50%;
+        left: 19%;
+        top: 19%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+
+
+
+
+
+
+
+    /*==========================GEAR TWO=================================================*/
+    #gear_medium {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    #gear_medium .circle_medium {
+        position: absolute;
+        /* display: flex; */
+        left: 53%;
+        top: 17%;
+        animation-name: rotate-gear;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate-gear {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(-360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .circle_medium {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 26%;
+        top: 15%;
+        z-index: 1;
+        transform: rotate(30deg);
+    }
+
+
+    .tooth_medium {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_medium:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_medium:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_medium:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_medium {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_medium:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_medium:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_medium:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_medium .center_medium {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: 20%;
+        top: 20%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+
+
+
+    /*==========================GEAR THREE=================================================*/
+    #gear_small {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    #gear_small .circle_small {
+        position: absolute;
+        /* display: flex; */
+        left: 52%;
+        top: 40%;
+        transform: rotate(49deg);
+        animation-name: rotate-gear-small;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate-gear-small {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .circle_small {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 26%;
+        top: 15%;
+        z-index: 1;
+    }
+
+
+    .tooth_small {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_small:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_small:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_small:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_small {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_small:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_small:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_small:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_small .center_small {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: 20%;
+        top: 20%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+    /*==========================GEAR FOUR=================================================*/
+    #gear_smaller {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    #gear_smaller .circle_smaller {
+        position: absolute;
+        /* display: flex; */
+        left: 24%;
+        top: 41%;
+        transform: rotate(61deg);
+        animation-name: rotate-gear-smaller;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate-gear-smaller {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(-360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .circle_smaller {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 26%;
+        top: 15%;
+        z-index: 1;
+    }
+
+
+    .tooth_smaller {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_smaller:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_smaller:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_smaller:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_smaller {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_smaller:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_smaller:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_smaller:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_smaller .center_smaller {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        left: 20%;
+        top: 20%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+}
+
+
+/* 
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+----------------------- 412 PX - 915 PX -----------------------------
+---------------------------------------------------------------------
+--------------------------------------------------------------------- 
+*/
+
+
+
+@media (max-width: 412px) and (max-height: 915px) {
+
+    body {
+        /* background-image: url(../img/rusty.bg.jpg); */
+        background-color: #B7702F;
+        background-size: 100% 1000px;
+        /* background-position: 1420px 633px; */
+        background-position-x: center;
+    }
+
+    #machine {
+        width: 100%x;
+        height: 500px;
+        /* border: 1px solid black; */
+    }
+
+    #gear_big .circle_big {
+        position: absolute;
+        /* display: flex; */
+        left: 25%;
+        top: 6%;
+
+        transition: all 10ms;
+        animation-name: rotate-gear-big;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+
+    @keyframes rotate-gear-big {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(360deg);
+        }
+    }
+
+
+    .circle_big {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 41%;
+        top: 10%;
+        z-index: 1;
+    }
+
+
+    .tooth_big {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_big:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_big:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_big:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_big {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_big:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_big:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_big:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 22px;
+        height: 22px;
+        border-radius: 3px 3px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_big .center_big {
+        position: absolute;
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        left: 19%;
+        top: 19%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+
+
+
+
+
+
+
+    /*==========================GEAR TWO=================================================*/
+    #gear_medium {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    #gear_medium .circle_medium {
+        position: absolute;
+        /* display: flex; */
+        left: 53%;
+        top: 17%;
+        animation-name: rotate-gear;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate-gear {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(-360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .circle_medium {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 26%;
+        top: 15%;
+        z-index: 1;
+        transform: rotate(30deg);
+    }
+
+
+    .tooth_medium {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_medium:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_medium:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_medium:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_medium {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_medium:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_medium:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_medium:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_medium .center_medium {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: 20%;
+        top: 20%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+
+
+
+    /*==========================GEAR THREE=================================================*/
+    #gear_small {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    #gear_small .circle_small {
+        position: absolute;
+        /* display: flex; */
+        left: 52%;
+        top: 40%;
+        transform: rotate(49deg);
+        animation-name: rotate-gear-small;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate-gear-small {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .circle_small {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 26%;
+        top: 15%;
+        z-index: 1;
+    }
+
+
+    .tooth_small {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_small:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_small:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_small:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_small {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_small:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_small:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_small:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_small .center_small {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: 20%;
+        top: 20%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+    /*==========================GEAR FOUR=================================================*/
+    #gear_smaller {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    #gear_smaller .circle_smaller {
+        position: absolute;
+        /* display: flex; */
+        left: 24%;
+        top: 41%;
+        transform: rotate(61deg);
+        animation-name: rotate-gear-smaller;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate-gear-smaller {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(-360deg);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .circle_smaller {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background-color: #ccc;
+        border: 0px solid black;
+        border-radius: 50%;
+        left: 26%;
+        top: 15%;
+        z-index: 1;
+    }
+
+
+    .tooth_smaller {
+        position: absolute;
+        left: 39%;
+        top: -11%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_smaller:nth-child(2) {
+        transform: rotate(48deg);
+        left: 78%;
+        position: absolute;
+        top: 6%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_smaller:nth-child(3) {
+        position: absolute;
+        transform: rotate(90deg);
+        left: 90%;
+        top: 44%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .tooth_smaller:nth-child(4) {
+        position: absolute;
+        transform: rotate(132deg);
+        left: 73%;
+        top: 75%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_smaller {
+        position: absolute;
+        left: 40%;
+        top: 88%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+        transform: rotate(179deg);
+    }
+
+    .left .tooth_smaller:nth-child(2) {
+        transform: rotate(-50deg);
+        left: 1%;
+        position: absolute;
+        top: 6%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+    .left .tooth_smaller:nth-child(3) {
+        position: absolute;
+        transform: rotate(268deg);
+        left: -11%;
+        top: 44%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+
+
+
+    .left .tooth_smaller:nth-child(4) {
+        position: absolute;
+        transform: rotate(226deg);
+        left: 5%;
+        top: 76%;
+        width: 67px;
+        height: 67px;
+        border-radius: 10px 10px 0px 0px;
+        background: #ccc;
+    }
+
+    .circle_smaller .center_smaller {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        left: 20%;
+        top: 20%;
+        background-color: #B7702F;
+        z-index: 10;
+    }
+
+}
+
+
+/* 
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+--------------------------------------------------------------------- 
+*/
