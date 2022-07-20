@@ -1,4 +1,4 @@
-# ANIMATED GEARS
+# CSS GEARS ANIMATION
 Animated gears created in CSS
 
 #IMPORTANT: Need to edit the responsive code to adapt to diferent devices.
